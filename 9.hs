@@ -1,0 +1,1 @@
+solve = head [a*b*c| c <- [1..1000], b <- [1..c], let a = 1000 - b - c, a*a + b*b == c*c]
